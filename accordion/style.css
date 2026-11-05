@@ -1,0 +1,27 @@
+.answer {
+  display: none;
+}
+
+.item.open .answer {
+  display: block;
+}
+
+.accordion,
+.question {
+  width: 300px;
+}
+
+.question {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  margin-bottom: 8px;
+}
+
+.item.open .icon {
+  transform: rotate(45deg);
+  transition: transform 0.2s;
+}
