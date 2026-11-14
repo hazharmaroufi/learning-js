@@ -19,3 +19,10 @@ echo 500 > text.txt
 append >>
 sudo su
 open index.php
+
+---
+
+آبجکتها رفرنس تایپ هستن یعنی مسیر محتوا رو توی خودشون ذخیره میکنن
+Object.assign(dest, ...sources)
+let clone = structuredClone(use)
+---
