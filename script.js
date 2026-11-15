@@ -88,22 +88,24 @@
 //  شیء را بگیرد و جمله‌ای مثل «دریل بوش: ۲,۵۰۰,۰۰۰ تومان، موجود» برگرداند. از
 // `formatPrice` خودت استفاده کن
 
-const formatPrice = (price) => {
-  if (!Number.isFinite(price) || price < 0) {
-    return "قیمت نامعتبر"
-  }
-  const localNumber = price.toLocaleString("en-US")
-  return `${localNumber} تومان`
-}
+// const formatPrice = (price) => {
+//   if (!Number.isFinite(price) || price < 0) {
+//     return "قیمت نامعتبر"
+//   }
+//   const localNumber = price.toLocaleString("en-US")
+//   return `${localNumber} تومان`
+// }
 
-const bushDrill = {
-  name: "دریل بوش",
-  price: 2500000,
-  inStock: true,
-  category: "Drills",
-}
+// const bushDrill = {
+//   name: "دریل بوش",
+//   price: 2500000,
+//   inStock: true,
+//   category: "Drills",
+// }
 
-function productInfo({ name, price, inStock }) {
-  return `${name} : ${formatPrice(price)} , ${inStock ? "موجود" : "تمام شده"}`
-}
-console.log(productInfo(bushDrill));
+// function productInfo({ name, price, inStock }) {
+//   return `${name} : ${formatPrice(price)} , ${inStock ? "موجود" : "تمام شده"}`
+// }
+// console.log(productInfo(bushDrill));
+
+

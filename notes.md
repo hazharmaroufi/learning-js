@@ -26,3 +26,4 @@ open index.php
 Object.assign(dest, ...sources)
 let clone = structuredClone(use)
 ---
+وقتی یک آبجکت رو کپی میکنی باید حواست باشه اگه داخلش آبجکت دیگه ای بود فقط رفرنسش کپی میشه نه خود آبجکت
